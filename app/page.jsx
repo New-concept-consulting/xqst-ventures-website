@@ -9,8 +9,7 @@ export default function Home() {
             XQST Ventures
           </h1>
           <p className="mt-4 text-lg font-light text-cream/80 max-w-xl mx-auto">
-            [PLACEHOLDER: one-line group tagline — e.g. &quot;Hospitality,
-            mobility, and stays — under one name.&quot;]
+            &quot;Hospitality, mobility, and stays — under one name.&quot;
           </p>
         </div>
       </section>
@@ -24,19 +23,19 @@ export default function Home() {
             href="/hotel"
             title="XQST Hotel & Lounge"
             blurb="A comfortable stay paired with a relaxed lounge experience — rooms, dining, and hospitality in one place."
-            imgPlaceholder="[PLACEHOLDER: hotel hero image]"
+            imgSrc="/images/image15.jpg"
           />
           <BusinessCard
             href="/car-rentals"
             title="XQST Car Rentals"
             blurb="Reliable vehicles for business, travel, or everyday use — a range of cars to suit any trip."
-            imgPlaceholder="[PLACEHOLDER: car rental hero image]"
+            // imgSrc="/images/image1.jpg"
           />
           <BusinessCard
             href="/airbnb"
             title="XQST Airbnb"
             blurb="Short-term stays in well-kept, comfortable homes — an alternative to hotel living for guests who want more space."
-            imgPlaceholder="[PLACEHOLDER: airbnb hero image]"
+            // imgSrc="/images/image2.jpg"
           />
         </div>
       </section>
