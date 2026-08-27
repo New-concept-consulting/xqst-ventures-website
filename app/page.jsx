@@ -6,7 +6,7 @@ export default function Home() {
       <section className="h-[70vh] bg-charcoal flex items-center justify-center text-center text-cream px-6">
         <div>
           <h1 className="font-serif text-5xl md:text-7xl tracking-wide">
-            XQST Ventures
+            XQST Events and Management Limited
           </h1>
           <p className="mt-4 text-lg font-light text-cream/80 max-w-xl mx-auto">
             &quot;Hospitality, mobility, and stays — under one name.&quot;
@@ -29,7 +29,7 @@ export default function Home() {
             href="/car-rentals"
             title="XQST Car Rentals"
             blurb="Reliable vehicles for business, travel, or everyday use — a range of cars to suit any trip."
-            // imgSrc="/images/image1.jpg"
+            imgSrc="/images/car2.jpg"
           />
           <BusinessCard
             href="/airbnb"

@@ -1,6 +1,6 @@
-# XQST Ventures
+# XQST Events and Management Limited
 
-Next.js site for XQST Ventures — hub page linking to three businesses:
+Next.js site for XQST Events and Management Limited — hub page linking to three businesses:
 XQST Hotel & Lounge, XQST Car Rentals, XQST Airbnb.
 
 ## Setup

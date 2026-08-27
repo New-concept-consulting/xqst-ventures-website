@@ -11,7 +11,7 @@ const serif = Cormorant_Garamond({
 const sans = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata = {
-  title: "XQST Ventures",
+  title: "XQST Events and Management Limited",
   description: "XQST Hotel & Lounge, XQST Car Rentals, XQST Airbnb",
 };
 
