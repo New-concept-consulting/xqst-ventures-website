@@ -13,6 +13,9 @@ const sans = Inter({ subsets: ["latin"], variable: "--font-sans" });
 export const metadata = {
   title: "XQST Events and Management Limited",
   description: "XQST Hotel & Lounge, XQST Car Rentals, XQST Airbnb",
+  icons: {
+    icon: "/images/XQST_logo.png",
+  },
 };
 
 export default function RootLayout({ children }) {

@@ -3,7 +3,14 @@ export default function Footer() {
     <footer className="bg-charcoal text-cream px-6 md:px-16 py-10 mt-20">
       <div className="flex flex-col md:flex-row justify-between gap-6">
         <div>
-          <p className="font-serif text-xl">XQST Events and Management Limited</p>
+          <div className="flex items-center gap-3">
+            <img
+              src="/images/XQST_logo.png"
+              alt="XQST Events and Management Limited"
+              className="h-14 w-14 object-contain"
+            />
+            <p className="font-serif text-xl">XQST Events and Management Limited</p>
+          </div>
           <p className="text-sm text-cream/70 mt-1 whitespace-pre-line">
             10, Ramoni Ajako street, By Tawakalitu Street,
             Off Salami Busstop, Alimosho Lagos

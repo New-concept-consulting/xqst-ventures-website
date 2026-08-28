@@ -12,8 +12,13 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 bg-cream/90 backdrop-blur-sm border-b border-gold/30">
       <nav className="flex items-center justify-between px-6 md:px-16 py-4">
-        <Link href="/" className="font-serif text-2xl tracking-wide">
-          XQST <span className="text-gold">Ventures</span>
+        <Link href="/" className="flex items-center gap-3 font-serif text-2xl tracking-wide">
+          <img
+            src="/images/XQST_logo.png"
+            alt="XQST Events and Management Limited"
+            className="h-10 w-10 object-contain"
+          />
+          <span>XQST Events and Management Limited</span>
         </Link>
         <ul className="hidden md:flex gap-8 text-sm tracking-wide">
           {links.map((l) => (
